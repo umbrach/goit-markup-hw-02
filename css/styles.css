@@ -1,0 +1,126 @@
+/* основний колір тексту #212121 */
+/* вторичний колір тексту #757575 */
+/* акцент #2196F3 */
+/* білий колір #FFFFFF */
+/* білий колір футер rgba(255, 255, 255, 0.6) */
+
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+
+
+
+/* Page header */
+
+.logo,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--title-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+/* .hero-title {
+    color: #ffffff;
+} */
+
+
+/* Main sections */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--primary-text-color);
+}
+
+.feature-list .text {
+    color: var(--title-text-color);
+}
+
+/* Our Team */
+
+.team-list .title {
+    color: var(--primary-text-color);
+}
+
+.team-list .text {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: #2F303A;
+}
+
+.logo,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
+
+.footer-link .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link .link:hover,
+.footer-link .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Portfolio Page */
+
+/* Filter buttons */
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+}
+
+
+/* Work Examples */
+
+.work-examples .text {
+    color: var(--title-text-color);
+}
