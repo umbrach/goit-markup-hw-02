@@ -19,6 +19,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+ul {
+    list-style: none;
+}
+
 /* Page header */
 
 .logo {
