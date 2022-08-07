@@ -61,7 +61,7 @@ body {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.17;
    }
 
 /* Hero */
@@ -74,7 +74,7 @@ body {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     letter-spacing: 0.06em;
 }
 
@@ -90,14 +90,14 @@ body {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.14;
 
 }
 
 .feature-list .text {
     color: var(--title-text-color);
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
 }
 
 /* Our Team */
@@ -106,13 +106,13 @@ body {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
 }
 
 .team-list .text {
     color: var(--title-text-color);
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
 }
 
 /* Footer */
@@ -129,7 +129,7 @@ body {
 .address {
     color: #FFFFFF;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.71;
 }
 
 .address:hover,
@@ -167,7 +167,7 @@ button {
 .work-examples .text {
     color: var(--title-text-color);
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.87;
 }
 
 .work-examples .work-title {
