@@ -11,8 +11,6 @@
     --accent-color: #2196F3;
 }
 
-
-
 body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
@@ -21,15 +19,37 @@ body {
     letter-spacing: 0.03em;
 }
 
-
 /* Page header */
 
-.logo,
-.logo:focus {
+.logo {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-blue {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-white {
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo:focus {
+    color: var(--accent-color);
 }
 
 .site-nav .link {
@@ -38,6 +58,7 @@ body {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -47,13 +68,13 @@ body {
 
 .auth-nav .link {
     color: var(--title-text-color);
+    text-decoration: none;
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
-
 
 /* Main sections */
 
@@ -121,15 +142,11 @@ body {
     background-color: #2F303A;
 }
 
-.logo,
-.logo:focus {
-    color: var(--accent-color);
-}
-
 .address {
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 
 .address:hover,
@@ -139,6 +156,7 @@ body {
 
 .footer-link .link {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .footer-link .link:hover,
