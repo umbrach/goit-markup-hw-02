@@ -166,4 +166,14 @@ button {
 
 .work-examples .text {
     color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.work-examples .work-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
