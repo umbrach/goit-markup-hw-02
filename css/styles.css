@@ -65,6 +65,10 @@ ul {
     text-decoration: none;
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
