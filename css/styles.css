@@ -9,6 +9,7 @@
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
+    --primary-white-color: #ffffff
 }
 
 body {
@@ -43,7 +44,7 @@ ul {
 }
 
 .logo-white {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -99,7 +100,7 @@ ul {
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -151,7 +152,7 @@ ul {
 }
 
 .address {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -181,14 +182,42 @@ ul {
 
 /* Filter buttons */
 
-button {
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
     font-family: inherit;
     cursor: pointer;
 }
 
+.button.primary-filter {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.button.primary-hero {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.button.secondary {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
 .button:hover,
 .button:focus {
-    color: var(--accent-color);
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 
